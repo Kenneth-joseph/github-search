@@ -1,15 +1,10 @@
-.f_design
-{
-/* margin: 0 auto; */
-}
 
-#bsearch button a{
-  /* text-align:center; */
-  text-decoration: none;
-  color: white;
-
-}
 
 .bttn{
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.bttn #bsearch button a{
+  color: white;
+  text-decoration: none;
 }
