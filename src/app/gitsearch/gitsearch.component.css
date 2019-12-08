@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee&display=swap');
-
 .h1
 {
   font-family: 'ABeeZee', sans-serif;
@@ -24,5 +23,10 @@ font-size: 20px;
 }
 .icon{
   margin-top:100px;
+}
+#but button a{
+text-decoration: none;
+color: white;
+
 }
 
