@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { Gitprofile } from '../gitprofile';
 
 @Component({
   selector: 'app-search-form',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchFormComponent implements OnInit {
 
-  constructor() { }
+profile: Gitprofile[];
+  constructor(private http: HttpClientModule) { }
 
   ngOnInit() {
+    interface ApiResponse{
+      
+    }
   }
 
 }

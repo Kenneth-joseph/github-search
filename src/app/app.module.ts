@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GitsearchComponent } from './gitsearch/gitsearch.component';
 import { SearchFormComponent } from './search-form/search-form.component';
-
+import {HttpClientModule} from '@angular/common/http';
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +15,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
