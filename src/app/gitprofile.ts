@@ -1,3 +1,3 @@
 export class Gitprofile {
-  constructor(private id: number , private username: string) {}
+  // constructor(public id: number , public login: string, public url: string) {}
 }

@@ -7,7 +7,7 @@ import { from } from 'rxjs';
 
 const routes: Routes = [
   {path: 'searchForm' , component: SearchFormComponent},
-  {path: 'gitsearch' , component: GitsearchComponent},
+  {path: '' , component: GitsearchComponent},
 ];
 
 @NgModule({
@@ -15,3 +15,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+ 

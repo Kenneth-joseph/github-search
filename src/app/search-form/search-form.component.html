@@ -4,7 +4,7 @@
         <form class="f_design text-center bg-primary p-5 mt-5">
             <div class="form-group ">
               <label for="exampleInputEmail1">ENTER USERNAME</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username" >
             </div>
 
             <button type="submit" class="btn btn-success bt">Submit</button>
@@ -15,6 +15,78 @@
     <button type="button" class="btn btn-warning  btn-lg " ><a routerLink='/gitsearch'>HOME PAGE</a></button>
      </div>
 </div>
+<p>
+
+<!-- followers:{{profile.followers}} -->
+</p>
+
   </div>
+
+  <div class="row mt-5" *ngIf='profile'>
+    <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6 ">
+      <img src="{{profile.avatar_url}}" alt="profile photo">
+  </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 bg-success">
+        <div class="card mt-3">
+            <div class="card mt-3">
+                <h5 class="card-title mt-2">{{profile.name}}</h5>
+
+              </div>
+
+            <div class="card-body">
+              <label>Name</label>:&nbsp;<small>{{profile.login}}</small>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+              <div class="card-body">
+                <label>Followers</label>:&nbsp;<small>{{profile.followers}}</small>
+              </div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-body">
+                  <label>Following</label>:&nbsp;<small>{{profile.following}}</small>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                  <div class="card-body">
+                    <label>Email</label>:&nbsp;<small>{{profile.email}}</small>
+                  </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-body">
+                      <label>Public Repos</label>:&nbsp;<small>{{profile.public_repos}}</small>
+                </div>
+                  </div>
+
+                  <div class="card mt-3">
+                      <div class="card-body">
+                        <label>Location</label>:&nbsp;<small>{{profile.location}}</small>
+                      </div>
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="card-body">
+                          <label>Public gists</label>:&nbsp;<small>{{profile.public_gists}}</small>
+                        </div>
+                      </div>
+    </div>
+
+    <div class="col-lg-5 col-md-6 col-sm-6 bg-info">
+        <div class="card mt-3">
+            <div class="card-header">
+              Repositories
+            </div>
+            <ul class="list-group list-group-flush" *ngFor="let repo of repos">
+              <p class="card-body"><strong>{{repo.name}}</strong><br>
+                <small>{{repo.description}}</small><br>
+                <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-info">view on github</a>
+              </p>
+            </ul>
+          </div>
+    </div>
 </div>
 
