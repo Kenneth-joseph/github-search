@@ -34,3 +34,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
  >>##### shows the search page
 ![this shows the page](src/assets/gits.png)
+## Description
+>A platform where one can easily search his or her github accunt and access it easily and more effeciently following how great the site is designed to make the users experience much more easier and faster
+
+## Who it serves
+> This project serves any user, who has a github account or whom is willing to gain an easier access to an account and would love to make it faster.
+
