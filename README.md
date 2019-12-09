@@ -27,3 +27,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 >To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Screenshots
+> **Visual Presentation of My Work**
+ >>##### shows the main page
+![this shows the page](assets/gitss.png)
