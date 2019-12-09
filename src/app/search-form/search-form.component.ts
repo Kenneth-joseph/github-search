@@ -12,6 +12,7 @@ import { Profile } from 'selenium-webdriver/firefox';
 export class SearchFormComponent implements OnInit {
 profile: any;
 repos: any;
+username: string;
 // profile: Gitprofile;
   constructor(private http: HttpClient, private service: GitSService) {
     this.service.getProfile().subscribe( Prof => {
@@ -24,6 +25,9 @@ repos: any;
     })
    }
 
+   findAccount(){
+     this.service.updateProfile(this.username);
+   }
   ngOnInit() {
 
 
