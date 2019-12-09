@@ -4,6 +4,7 @@ import { from } from 'rxjs';
 import { GitSService} from '../git-s.service';
 import { Profile } from 'selenium-webdriver/firefox';
 
+
 @Component({
   selector: 'app-search-form',
   templateUrl: './search-form.component.html',
@@ -15,18 +16,19 @@ repos: any;
 username: string;
 // profile: Gitprofile;
   constructor(private http: HttpClient, private service: GitSService) {
-    this.service.getProfile().subscribe( Prof => {
+
+   }
+
+   findAccount() {
+     this.service.updateProfile(this.username);
+     this.service.getProfile().subscribe( Prof => {
       console.log(Prof);
       this.profile = Prof;
     });
-    this.service.getRepos().subscribe(repos => {
+     this.service.getRepos().subscribe(repos => {
        this.repos = repos;
        console.log(repos);
-    })
-   }
-
-   findAccount(){
-     this.service.updateProfile(this.username);
+    });
    }
   ngOnInit() {
 

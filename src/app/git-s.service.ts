@@ -24,4 +24,7 @@ this.username = 'Kenneth-joseph';
 
    }
    updateProfile(username: string)
+   {
+      this.username = username;
+   }
 }
