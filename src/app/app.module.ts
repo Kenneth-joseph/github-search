@@ -8,7 +8,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import {HttpClientModule} from '@angular/common/http';
 import { from } from 'rxjs';
 import {FormsModule} from '@angular/forms';
-import {GitSService} from './git-s.service'
+import {GitSService} from './git-s.service';
 @NgModule({
   declarations: [
     AppComponent,

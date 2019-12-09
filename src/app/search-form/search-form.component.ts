@@ -14,7 +14,7 @@ export class SearchFormComponent implements OnInit {
 profile: any;
 repos: any;
 username: string;
-// profile: Gitprofile;
+
   constructor(private http: HttpClient, private service: GitSService) {
 
    }
