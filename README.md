@@ -31,3 +31,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 > **Visual Presentation of My Work**
  >>##### shows the main page
 ![this shows the page](src/assets/gitss.png)
+
+ >>##### shows the search page
+![this shows the page](src/assets/gits.png)
