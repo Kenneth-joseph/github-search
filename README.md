@@ -40,3 +40,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Who it serves
 > This project serves any user, who has a github account or whom is willing to gain an easier access to an account and would love to make it faster.
 
+## Access the site
+> To access the website, click on the link provided here;
+>[git search]( )
+
+## Technologies Used
+>The following are the list of technology used
+ - HTML
+ - CSS
+ - TYPESCRIPT
+ - Bootstrap 4
+ - Angular 8
