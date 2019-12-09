@@ -42,7 +42,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Access the site
 > To access the website, click on the link provided here;
->[git search]( )
+>[git search]( https://kenneth-joseph.github.io/github-search/)
 
 ## Technologies Used
 >The following are the list of technology used

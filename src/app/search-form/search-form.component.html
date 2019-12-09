@@ -22,9 +22,9 @@
 
   <div class="row mt-5" *ngIf='profile'>
     <div class="col-lg-3 col-md-6 col-sm-6 col-sm-6 ">
-      <img src="{{profile.avatar_url}}" alt="profile photo">
+      <img src="{{profile.avatar_url}}" class="img-circle img-responsive"alt="profile photo">
   </div>
-    <div class="col-lg-4 col-md-6 col-sm-6 bg-success">
+    <div class="col-lg-4 col-md-6 col-sm-6 ">
         <div class="card mt-3">
             <div class="card mt-3">
                 <h5 class="card-title mt-2">{{profile.name}}</h5>
@@ -57,7 +57,7 @@
                 <div class="card mt-3">
                     <div class="card-body">
                       <label>Public Repos</label>:&nbsp;<small>{{profile.public_repos}}</small>
-                </div>
+                   </div>
                   </div>
 
                   <div class="card mt-3">
@@ -87,4 +87,4 @@
           </div>
     </div>
 </div>
-
+</div>
