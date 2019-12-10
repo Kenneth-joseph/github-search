@@ -33,7 +33,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![this shows the page](src/assets/gitss.png)
 
  >>##### shows the search page
-![this shows the page](src/assets/gits.png)
+![this shows the page](src/assets/gitS.png)
 ## Description
 >A platform where one can easily search his or her github accunt and access it easily and more effeciently following how great the site is designed to make the users experience much more easier and faster
 
